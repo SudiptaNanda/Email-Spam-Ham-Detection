@@ -29,35 +29,35 @@ Some words such as “the” or “is” appear in all emails and don’t have m
 Transform the words into a tf-idf matrix using the sklearn TfIdf transformation. Then, create train/test sets with the train_test_split function, using stratify parameter. The dataset is highly unbalanced and the stratify parameter will make a split so that the proportion of values in the sample produced will be the same as the proportion of values provided to parameter stratify. For example, if variable y is 0 and 1 and there are 30% of 0’s and 70% of 1’s, stratify=y will make sure that the random split has 30% of 0’s and 75% of 1’s.
 
 ## Train a Classifier
-Trained five models using the training data:
-    a.    Naive Bayes
-    b.    Decision Tree
-    c.    SVM
-    d.    Random Forest
-    e.    Logistic Regression
+Trained five models using the training data:  
+a.    Naive Bayes  
+b.    Decision Tree  
+c.    SVM  
+d.    Random Forest  
+e.    Logistic Regression  
     
-Using the trained models, predicted the email label for test dataset. Calculated four metrics to gauge performance of the models:
-    a.    Accuracy
-    b.    Precision
-    c.    Recall
-    d.    F-score
+Using the trained models, predicted the email label for test dataset. Calculated four metrics to gauge performance of the models:  
+a.    Accuracy  
+b.    Precision  
+c.    Recall  
+d.    F-score  
 
 Below are the metrics explanation:-
 
-1. Precision
-Precision refers to the closeness of two or more measurements to each other. In Machine Learning, precision is the fraction of relevant instances among the retrieved instances.
-   Precision = TP / (TP + FP) (Where TP = True Positive, TN = True Negative, FP = False Positive, FN = False Negative).
+**1. Precision**  
+Precision refers to the closeness of two or more measurements to each other. In Machine Learning, precision is the fraction of relevant instances among the retrieved instances  
+    Precision = TP / (TP + FP) (Where TP = True Positive, TN = True Negative, FP = False Positive, FN = False Negative).
 
-2. Accuracy
-Accuracy refers to the closeness of a measured value to a standard or known value. 
-   Accuracy = (TP+TN) / ALL
+**2. Accuracy**  
+Accuracy refers to the closeness of a measured value to a standard or known value.  
+    Accuracy = (TP+TN) / ALL
 
-3. Recall
-Recall is how many of the true positives were recalled (found), i.e. how many of the correct hits were also found. 
-   Recall = TP / (TP + FN)
+**3. Recall**    
+Recall is how many of the true positives were recalled (found), i.e. how many of the correct hits were also found.  
+    Recall = TP / (TP + FN)
 
-4. F-Score
-F-scores are a statistical method for determining accuracy accounting for both precision and recall. It is essentially the harmonic mean of precision and recall.
+4. F-Score  
+F-scores are a statistical method for determining accuracy accounting for both precision and recall. It is essentially the harmonic mean of precision and recall.  
 
 ## Compare performance of different classifiers 
 
