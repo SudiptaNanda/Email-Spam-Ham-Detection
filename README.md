@@ -56,7 +56,7 @@ Accuracy refers to the closeness of a measured value to a standard or known valu
 Recall is how many of the true positives were recalled (found), i.e. how many of the correct hits were also found.  
     Recall = TP / (TP + FN)
 
-4. F-Score  
+**4. F-Score**  
 F-scores are a statistical method for determining accuracy accounting for both precision and recall. It is essentially the harmonic mean of precision and recall.  
 
 ## Compare performance of different classifiers 
