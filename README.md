@@ -59,3 +59,13 @@ Recall is how many of the true positives were recalled (found), i.e. how many of
 4. F-Score
 F-scores are a statistical method for determining accuracy accounting for both precision and recall. It is essentially the harmonic mean of precision and recall.
 
+## Compare performance of different classifiers 
+
+| Model Name  | Accuracy  | Precision |  Recall | F-Score |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Naive Bayes  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Decision Tree  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| SVM  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Random Forest  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Logistic Regression  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+
