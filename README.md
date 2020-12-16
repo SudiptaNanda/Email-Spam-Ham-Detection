@@ -63,9 +63,9 @@ F-scores are a statistical method for determining accuracy accounting for both p
 
 | Model Name  | Accuracy  | Precision |  Recall | F-Score |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Naive Bayes  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Decision Tree  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| SVM  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Random Forest  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Logistic Regression  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Naive Bayes  | 0.9847271648873073  | 0.9857142857142858 | 0.9842794759825327  | 0.9849963583394027 |
+| Decision Tree  | 0.9629300118623962 | 0.9638799883483833| 0.9633187772925764 | 0.9635993011065812 |
+| SVM  | 0.9899169632265717 | 0.9819639278557114  | 0.9985443959243085  | 0.9901847575057736  |
+| Random Forest  | 0.9827995255041518 | 0.980596582681726  | 0.9857350800582242  | 0.9831591173054587  |
+| Logistic Regression  | 0.9839857651245552  | 0.9716472923164162  | 0.9976710334788937  | 0.9844872163171503  |
 
